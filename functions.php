@@ -1,6 +1,7 @@
 <?php
 $action = $_POST['action'];
 $action($_POST);
+$teste = "teste";
 
 function slug($text)
     {
